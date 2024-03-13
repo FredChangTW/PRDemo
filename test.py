@@ -7,6 +7,7 @@ from datetime import datetime
 class BankAccount:
     s_accountNumberSeed = 1234567890
     instanceCount = 0
+    a = 0
 
     @staticmethod
     def get_instance_count():
